@@ -9,7 +9,7 @@ const App = () => {
     console.log('rotation starts...', res);
     captureRef.current.capture().then(uri => {
       console.log("screenshot url is... ", uri);
-      alert(`Screenshot utl is\n`, uri)
+      alert(`Screenshot utl is \n${uri}`)
     });
   });
   return (
